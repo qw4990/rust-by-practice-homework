@@ -1,6 +1,7 @@
 mod variables;
 mod numbers;
 mod charboolunit;
+mod stmtfunc;
 
 fn variables_() {
     variables::variables_1();
@@ -34,8 +35,15 @@ fn charboolunit_() {
     charboolunit::charboolunit_5();
 }
 
+fn stmtfunc_() {
+    stmtfunc::stmtfunc_1();
+    stmtfunc::stmtfunc_2();
+    stmtfunc::stmtfunc_3();
+}
+
 fn main() {
     variables_();
     numbers_();
     charboolunit_();
+    stmtfunc_();
 }
