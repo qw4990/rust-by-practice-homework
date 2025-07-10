@@ -3,6 +3,7 @@ mod numbers;
 mod charboolunit;
 mod stmtfunc;
 mod funcs;
+mod ownership;
 
 fn variables_() {
     variables::variables_1();
@@ -47,10 +48,23 @@ fn funcs_() {
     funcs::funcs_2();
 }
 
+fn ownerships_() {
+    ownership::ownerships_1();
+    ownership::ownerships_2();
+    ownership::ownerships_3();
+    ownership::ownerships_4();
+    ownership::ownerships_5();
+    ownership::ownerships_6();
+    ownership::ownerships_7();
+    ownership::ownerships_8();
+    ownership::ownerships_9();
+}
+
 fn main() {
     variables_();
     numbers_();
     charboolunit_();
     stmtfunc_();
     funcs_();
+    ownerships_();
 }
