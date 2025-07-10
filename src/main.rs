@@ -4,6 +4,7 @@ mod charboolunit;
 mod stmtfunc;
 mod funcs;
 mod ownership;
+mod refborrow;
 
 fn variables_() {
     variables::variables_1();
@@ -60,6 +61,20 @@ fn ownerships_() {
     ownership::ownerships_9();
 }
 
+fn refborrow_() {
+    refborrow::refborrow_1();
+    refborrow::refborrow_2();
+    refborrow::refborrow_3();
+    refborrow::refborrow_4();
+    refborrow::refborrow_5();
+    refborrow::refborrow_6();
+    refborrow::refborrow_7();
+    refborrow::refborrow_8();
+    refborrow::refborrow_9();
+    refborrow::refborrow_10();
+    refborrow::refborrow_11();
+}
+
 fn main() {
     variables_();
     numbers_();
@@ -67,4 +82,5 @@ fn main() {
     stmtfunc_();
     funcs_();
     ownerships_();
+    refborrow_();
 }
