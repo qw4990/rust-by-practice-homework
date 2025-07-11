@@ -5,6 +5,8 @@ mod stmtfunc;
 mod funcs;
 mod ownership;
 mod refborrow;
+mod string;
+mod array;
 
 fn variables_() {
     variables::variables_1();
@@ -75,6 +77,18 @@ fn refborrow_() {
     refborrow::refborrow_11();
 }
 
+fn string_() {
+    string::string_4();
+    string::string_5();
+    string::string_6();
+    string::string_7();
+}
+
+fn array_() {
+    array::array_1();
+    array::array_2();
+}
+
 fn main() {
     variables_();
     numbers_();
@@ -83,4 +97,5 @@ fn main() {
     funcs_();
     ownerships_();
     refborrow_();
+    string_();
 }
