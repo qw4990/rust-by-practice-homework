@@ -7,6 +7,8 @@ mod ownership;
 mod refborrow;
 mod string;
 mod array;
+mod matches;
+mod generics;
 
 fn variables_() {
     variables::variables_1();
@@ -87,6 +89,21 @@ fn string_() {
 fn array_() {
     array::array_1();
     array::array_2();
+    array::array_3();
+}
+
+fn matches_() {
+    matches::matches_2();
+}
+
+fn generics_() {
+    generics::generics_1();
+    generics::generics_2();
+    generics::generics_3();
+    generics::generics_4();
+    generics::generics_5();
+    generics::generics_6();
+    generics::generics_7();
 }
 
 fn main() {
@@ -98,4 +115,7 @@ fn main() {
     ownerships_();
     refborrow_();
     string_();
+    array_();
+    matches_();
+    generics_();
 }
