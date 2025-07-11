@@ -1,3 +1,5 @@
+use crate::closure::closure_1;
+
 mod variables;
 mod numbers;
 mod charboolunit;
@@ -9,6 +11,7 @@ mod string;
 mod array;
 mod matches;
 mod generics;
+mod closure;
 
 fn variables_() {
     variables::variables_1();
@@ -106,6 +109,11 @@ fn generics_() {
     generics::generics_7();
 }
 
+fn closure_() {
+    closure::closure_1();
+    closure::closure_2();
+}
+
 fn main() {
     variables_();
     numbers_();
@@ -118,4 +126,5 @@ fn main() {
     array_();
     matches_();
     generics_();
+    closure_();
 }
